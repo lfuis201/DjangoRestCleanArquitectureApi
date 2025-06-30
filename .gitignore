@@ -1,0 +1,70 @@
+# 🐍 Entornos virtuales
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# 🧪 Pytest y coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# 🗃 Archivos de base de datos local
+*.sqlite3
+*.db
+
+# 🔐 Claves y configuraciones privadas
+secrets.json
+config/*.secret.*
+config/settings/*.local.py
+
+# 🧰 PyCharm
+.idea/
+
+# 🛠 VS Code
+
+# 🛑 Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# 🧼 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧰 Migrations (opcional, puedes excluirlas si las generas por entorno)
+**/migrations/
+!**/migrations/__init__.py
+
+# 📦 Compilados y logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# 📤 Archivos temporales
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# 🔧 Static/media en desarrollo
+staticfiles/
+media/
+
+# 📦 Node (si usas React/Vite en frontend)
+node_modules/
+dist/
+build/
+
+# 💡 pip-tools
+*.txt~
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
